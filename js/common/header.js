@@ -36,7 +36,7 @@ document.writeln("						  <li> <a href=\'accepted_papers.html\'>Accepted Papers<
 document.writeln("                      </ul>");
 document.writeln("                  </li>");
 document.writeln("				  <!-- SUBMISSION -->");
-document.writeln("				  <li><a href=\'submission.html\'>Submission</a></li>");
+document.writeln("				  <li><a href=\'committees.html\'>Submission</a></li>");
 document.writeln("				  <!-- COMMITTEES -->");
 document.writeln("				  <li><a href=\'committees.html\'>Committees</a></li>");
 document.writeln("<!--");
