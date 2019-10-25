@@ -1,0 +1,2 @@
+document.writeln("<h1 style=\'text-align:center;\'>Sorry, this page is still under construction</h1>");
+document.writeln("    <img src=\'img/under_construction.png\' align=\'pull-right\' width=\'20%\'  alt=\'under_construction\' class=\'img-rounded\'>");
