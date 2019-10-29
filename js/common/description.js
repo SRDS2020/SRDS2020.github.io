@@ -8,4 +8,4 @@ document.writeln("    <meta http-equiv=\'Cache-Control\' content=\'no-cache, no-
 document.writeln("    <meta http-equiv=\'expires\' content=\'Wed, 26 Feb 1997 08:21:57 GMT\'>");
 document.writeln("    <link rel=\'shortcut icon\' href=\'img/tag_icon.png\'>");
 document.writeln("");
-document.writeln("    <title>SRDS xxxx | Shanghai, China</title>");
+document.writeln("    <title>SRDS 2020 | Shanghai, China</title>");
