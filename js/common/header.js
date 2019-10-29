@@ -7,7 +7,7 @@ document.writeln("					<span class=\'icon-bar\'></span>");
 document.writeln("					<span class=\'icon-bar\'></span>");
 document.writeln("					<span class=\'icon-bar\'></span>");
 document.writeln("			  </button>");
-document.writeln("              <a class=\'navbar-brand\' href=\'index.html\'><img src=\'img/logo.png\' width=\"170\"> </a>");
+document.writeln("              <a class=\'navbar-brand\' href=\'index.html\'><img src=\'img/logo.png\' height=\"70px\"> </a>");
 document.writeln("          </div>");
 document.writeln("          <div class=\'navbar-collapse collapse\' id=\'bs-example-navbar-collapse-1\'>");
 document.writeln("              <ul class=\'nav navbar-nav\'>");

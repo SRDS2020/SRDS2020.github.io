@@ -3,6 +3,6 @@ document.writeln("    <meta name=\'viewport\' content=\'width=device-width, init
 document.writeln("    <meta name=\'description\' content=\'Developed By M Abdur Rokib Promy\'>");
 document.writeln("    <meta name=\'author\' content=\'cosmic\'>");
 document.writeln("    <meta name=\'keywords\' content=\'SRDS, distributed system, conference, ieee, operating system\'>");
-document.writeln("    <link rel=\'shortcut icon\' href=\'img/tag_icon.jpg\'>");
+document.writeln("    <link rel=\'shortcut icon\' href=\'img/tag_icon.png\'>");
 document.writeln("");
 document.writeln("    <title>SRDS 2020 | Shanghai, China</title>");
