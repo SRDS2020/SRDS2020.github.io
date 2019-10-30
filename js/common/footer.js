@@ -54,7 +54,7 @@ document.writeln("          </div>");
 document.writeln("          <div class=\'col-lg-3 col-sm-3\'>");
 document.writeln("            <div class=\'text-footer wow fadeInUp\' data-wow-duration=\'2s\' data-wow-delay=\'.7s\' >");
 document.writeln("              <h1>Silver Sponsor</h1>");
-document.writeln("			  <p><img src=\'img/aliyun.png\' width=\'90%\'></p>");
+document.writeln("			  <p><img src=\'img/aliyun.jpg\' width=\'90%\'></p>");
 document.writeln("            </div>");
 document.writeln("          </div>");
 document.writeln("        </div>");
