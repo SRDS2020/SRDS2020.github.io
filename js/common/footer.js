@@ -10,7 +10,8 @@ document.writeln("            <address>");
 document.writeln("              <p><i class=\'fa fa-globe pr-10\'></i>Shanghai, China </p>");
 document.writeln("              <p><i class=\'fa fa-mobile pr-10\'></i>Mobile : (+86)21-34208230 </p>");
 // document.writeln("              <p><i class=\'fa fa-phone pr-10\'></i>Fax : +86-21-34204728 </p>");
-document.writeln("              <p><i class=\'fa fa-envelope pr-10\'></i>Email :   <a href=\"mailto:wuct@cs.sjtu.edu.cn\">wuct@cs.sjtu.edu.cn</a></p>");
+document.writeln("              <p><i class=\'fa fa-envelope pr-10\'></i>Email :  </br><a href=\"mailto:wuct@cs.sjtu.edu.cn,Frontier_Setter@sjtu.edu.cn\">wuct@cs.sjtu.edu.cn </br> Frontier_Setter@sjtu.edu.cn</a></p>");
+// document.writeln("                  ")
 document.writeln("            </address>");
 document.writeln("          </div>");
 document.writeln("          <div class=\'col-lg-3 col-sm-3 wow fadeInUp\' data-wow-duration=\'2s\' data-wow-delay=\'.3s\'>");
