@@ -16,7 +16,7 @@ document.writeln("            </address>");
 document.writeln("          </div>");
 document.writeln("          <div class=\'col-lg-3 col-sm-3 wow fadeInUp\' data-wow-duration=\'2s\' data-wow-delay=\'.3s\'>");
 document.writeln("            <h1>Supporters</h1>");
-document.writeln("			<p><img src=\'img/SJTU.png\' width=\'90%\'></p>");
+document.writeln("			<p><img src=\'img/SJTU.jpg\' width=\'90%\'></p>");
 // document.writeln("			<p><img src=\'img/not decided.png\' width=\'227\' height=\'72\'></p>");
 document.writeln("		  </div>");
 document.writeln("          <div class=\'col-lg-3 col-sm-3\'>");
