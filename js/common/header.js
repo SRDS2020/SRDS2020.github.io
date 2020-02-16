@@ -85,3 +85,9 @@ document.writeln("              </ul>");
 document.writeln("          </div>");
 document.writeln("      </div>");
 document.writeln("    </header>");
+
+document.writeln("<div class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:24%; height:auto; background:#FCC; padding: 5px;\'>");
+document.writeln("      <h1>Notice!</h1>");
+document.writeln("      <p style=\'font-size:18px\'>The SRDS Steering Committee is aware of the <b><u>current medical situation</u></b> in China, and related travel advisories. </p>");
+document.writeln("      <p style=\'font-size:18px\'>It is monitoring the situation and prepared to <b><u>re-locate the conference</u></b>, should this prove necessary.</p>");
+document.writeln("    </div>");
