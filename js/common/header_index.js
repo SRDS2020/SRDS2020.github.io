@@ -85,16 +85,3 @@ document.writeln("              </ul>");
 document.writeln("          </div>");
 document.writeln("      </div>");
 document.writeln("    </header>");
-
-document.writeln("<div class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:26%; height:auto; background:#FCC; padding: 5px;\'>");
-document.writeln("      <h1>Notice!</h1>");
-document.writeln("      <p style=\'font-size:16px\'>With the current COVID-19 situation we are unable to foresee the viability of the planned conference meeting in Shanghai. Moreover, the pandemic nature of the disease also prevents its relocation to a safe place.</p>");
-document.writeln("      <p style=\'font-size:16px\'>If conditions allow, we will have a physical conference meeting in Shanghai as planned. Otherwise, Shanghai Jiao Tong University will arrange for a virtual meeting with online presentations, discussion panels, Q&A sessions and discussion fora. </p>");
-document.writeln("<p style=\'font-size:18px\'> <a href=\'index-real.html#detail-notice\'>View details</a></p>");
-document.writeln("    </div>");
-
-// document.writeln("<div class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:24%; height:auto; background:#FCC; padding: 5px;\'>");
-// document.writeln("      <h1>Notice!</h1>");
-// document.writeln("      <p style=\'font-size:18px\'>The SRDS Steering Committee is aware of the <b><u>current medical situation</u></b> in China, and related travel advisories. </p>");
-// document.writeln("      <p style=\'font-size:18px\'>It is monitoring the situation and prepared to <b><u>re-locate the conference</u></b>, should this prove necessary.</p>");
-// document.writeln("    </div>");
