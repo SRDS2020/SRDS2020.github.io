@@ -106,16 +106,15 @@ document.writeln("    </header>");
     <p style='font-size:16px' align='right'><a href="javascript:void(0)" onclick="showNotice()">show notice for current COVID-19 situation</a></p>
 </div>  */}
 
-document.writeln("<div id=\'notice\' class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:26%; height:auto; background:#FCC; padding: 5px\'>");
-document.writeln("    <h1>Notice!</h1>");
-document.writeln("    <p style=\'font-size:16px\'>With the current COVID-19 situation we are unable to foresee the viability of the planned conference meeting in Shanghai. Moreover, the pandemic nature of the disease also prevents its relocation to a safe place.</p>");
-document.writeln("    <p style=\'font-size:16px\'>If conditions allow, we will have a physical conference meeting in Shanghai as planned. Otherwise, Shanghai Jiao Tong University will arrange for a virtual meeting with online presentations, discussion panels, Q&A sessions and discussion fora. </p>");
-document.writeln("    <p style=\'font-size:18px\'> <a href=\'index-real.html#detail-notice\'>View details</a></p>");
-document.writeln("    <p style=\'font-size:16px\' align=\'right\'><a href=\'javascript:void(0)\' onclick=\'hideNotice()\'>hide</a></p>");
+document.writeln("<div id=\'notice\' class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:26%; height:auto; background:#FCC; padding: 5px; display: none\'>");
+document.writeln("    <h3>Notice!</h3>");
+document.writeln("    <p style=\'font-size:17px\'> <a href=\'index-real.html#detail-notice\'><u>View details</u></a>&nbsp&nbsp/&nbsp&nbsp<a href=\'javascript:void(0)\' onclick=\'hideNotice()\'><u>hide</u></a></p>");
+document.writeln("    <p style=\'font-size:15px\'>With the current COVID-19 situation we are unable to foresee the viability of the planned conference meeting in Shanghai. Moreover, the pandemic nature of the disease also prevents its relocation to a safe place.</p>");
+document.writeln("    <p style=\'font-size:15px\'>If conditions allow, we will have a physical conference meeting in Shanghai as planned. Otherwise, Shanghai Jiao Tong University will arrange for a virtual meeting with online presentations, discussion panels, Q&A sessions and discussion fora. </p>");
 document.writeln("</div> ");
 
-document.writeln("<div id=\'noticeShow\' class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:16%; height:auto; background:#FCC; padding: 5px; display: none\'>");
-document.writeln("    <p style=\'font-size:16px\' align=\'right\'><a href=\'javascript:void(0)\' onclick=\'showNotice()\'>show notice for current COVID-19 situation</a></p>");
+document.writeln("<div id=\'noticeShow\' class=\'top\' style=\'position:fixed; z-index:9999; top:20%; right:0; width:10%; height:auto; background:#FCC; padding: 5px; \'>");
+document.writeln("    <p style=\'font-size:14px\' align=\'right\'><a href=\'javascript:void(0)\' onclick=\'showNotice()\'>show notice for current COVID-19 situation</a></p>");
 document.writeln("</div> ");
 
 function hideNotice() {
