@@ -35,8 +35,8 @@ document.writeln("                          <li> <a href=\'invited_tutorial.html
 document.writeln("						  <li> <a href=\'accepted_papers.html\'>Accepted Papers</a> </li>");
 document.writeln("                      </ul>");
 document.writeln("                  </li>");
-// document.writeln("				  <!-- SUBMISSION -->");
-// document.writeln("				  <li><a href=\'submission.html\'>Submission</a></li>");
+document.writeln("				  <!-- SUBMISSION -->");
+document.writeln("				  <li><a href=\'submission.html\'>Submission</a></li>");
 document.writeln("				  <!-- COMMITTEES -->");
 document.writeln("				  <li class=\'dropdown\'>");
 document.writeln("                      <a class=\'dropdown-toggle\' data-close-others=\'false\' data-delay=\'0\' data-hover=\'dropdown\' data-toggle=\'dropdown\' href=\'committees.html\'>Committees <i class=\'fa fa-angle-down\'></i>");
