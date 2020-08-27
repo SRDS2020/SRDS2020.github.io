@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<script type="text/javascript" src="js/common/description.js"></script>
+    <script type="text/javascript" src="js/common/description.js"></script>
+    <script type="text/javascript" rc="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="css\bootstrap.min.css" rel="stylesheet">
@@ -27,14 +28,12 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
-<!--
-.STYLE1 {	font-size: 24px;
-	font-weight: bold;
-}
-.STYLE2 {	font-size: 16px;
-	font-weight: bold;
-}
--->
+    th.dia2 {
+      background: #00afb9;
+      color: white;
+      text-align:center;
+    }
+
     </style>
 </head>
 
@@ -68,7 +67,116 @@
             <!-- Forms
 <!-- ================================================== -->
   <div class="bs-docs-section mar-b-30">
-	<script type="text/javascript" src="js/common/under_construction.js"></script>
+	<!-- script type="text/javascript" src="js/common/under_construction.js"></script -->
+
+  <table border="1" align="center" cellpadding="8" cellspacing="0">
+    <!-- <tr><th class="dia2" id="wsdc"><b>WDSC | 02 October 2018 (Tue) </b></th></tr>
+    <tr>
+    <td>
+      <b>Research on theoretical structure design of smart community large data platform</b><br/>Jia Nan,  Xing Han, Qian Jing, Chen Yongqiang and Liu Yi<br/><br/>
+      <b>A Microservices Architecture for Distributed Complex Event Processing in Smart Cities</b><br/>Fernando Freire Scattone and Kelly Rosa Braghetto<br/><br/>
+      <b>Visualizing large datasets: A case study with data of the buses of São Paulo city</b><br/>Felipe Cordeiro Alves Dias and Daniel Cordeiro<br/><br/>
+      <b>Abstracting Big Data Processing Tools for Smart Cities</b><br/>Fernanda de Camargo Magano and Kelly Rosa Braghetto<br/><br/>
+    </td>
+    </tr>		 -->
+
+    <tr><th class="dia2" id="session1"><b>Session 1: Fault-tolerance and Coordination </b></th></tr>
+    <tr>
+    <td>
+      <b>Self-Stabilizing Construction of a Minimal Weakly <img src="http://latex.codecogs.com/gif.latex?\mathcal{ST}" title="\mathcal{ST}" />-Reachable Directed Acyclic Graph</b><br/>Junya Nakamura, Masahiro Shibata, Yuichi Sudo and Yonghwan Kim.<br/><br/>
+      <b>Benefits of Stabilization versus Rollback in Self-Stabilizing Graph-Based Applications on Eventually Consistent Key-Value Stores</b><br/>Duong Nguyen and Sandeep Kulkarni.<br/><br/>
+      <b>Consensus Beyond Thresholds: Generalized Byzantine Quorums Made Live</b><br/>Orestis Alpos and Christian Cachin.<br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session2"><b>Session 2: Blockchain </b></th></tr>
+    <tr>
+    <td>
+      <b>TZ4Fabric: Executing Smart Contracts with ARM TrustZone (Practical Experience Report)</b><br/>Christina Müller, Marcus Brandenburger, Christian Cachin, Pascal Felber, Christian Göttel and Valerio Schiavoni.<br/><br/>
+      <b>NF-Crowd: Nearly-free Blockchain-based Crowdsourcing</b><br/>Chao Li, Balaji Palanisamy, Runhua Xu, Jian Wang and Jiqiang Liu.<br/><br/>
+      <b>An Efficient Query Scheme for Hybrid Storage Blockchains Based on Merkle Semantic Trie</b><br/>Qingqi Pei, Enyuan Zhou, Yang Xiao, Deyu Zhang and Dongxiao Zhao. <br/><br/>
+      <b>Protect Your Smart Contract Against Unfair Payment</b><br/>Yue Li, Han Liu, Zhiqiang Yang, Bin Wang, Qian Ren, Lei Wang and Bangdao Chen. <br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session3"><b>Session 3: Learning I</b></th></tr>
+    <tr>
+    <td>
+      <b>Fast and Robust Distributed Learning in High Dimension</b><br/>El Mahdi El Mhamdi, Rachid Guerraoui and Sébastien Rouault.<br/><br/>
+      <b>Double Insurance: Incentivized Federated Learning with Differential Privacy in Mobile Crowdsensing</b><br/>Chenhao Ying, Haiming Jin, Xudong Wang and Yuan Luo.<br/><br/>
+      <b>End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things</b><br/>Yansong Gao, Minki Kim, Sharif Abuadbba, Yeonjae Kim, Chandra Thapa, Kyuyeon Kim, Seyit A.<br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session4"><b>Session 4: Formal methods</b></th></tr>
+    <tr>
+    <td>
+      <b>A Formally Verified Protocol for Log Replication with Byzantine Fault Tolerance</b><br/>Joel Wanner, Laurent Chuat and Adrian Perrig.<br/><br/>
+      <b>Using Model Checking to Formally Verify Rendezvous Algorithms for Robots with Lights in Euclidean Space</b><br/>Xavier Défago, Adam Heriban, Sebastien Tixeuil and Koichi Wada.<br/><br/>
+      <b>Efficient two-layered monitor for Partially Synchronous Distributed Systems</b><br/>Vidhya Tekken Valapil, Sandeep Kulkarni, Eric Torng and Gabe Appleton.<br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session5"><b>Session 5: Replication</b></th></tr>
+    <tr>
+    <td>
+      <b>Parallel State Machine Replication from Generalized Consensus</b><br/>Tarcisio Junior Ceolin, Fernando Luís Dotti and Fernando Pedone.<br/><br/>
+      <b>Generic Specification Framework for Weakly Consistent Replicated Data Types</b><br/>Xue Jiang, Hengfeng Wei and Yu Huang.<br/><br/>
+      <b>PnyxDB: a Lightweight Leaderless Democratic Byzantine Fault Tolerant Replicated Datastore</b><br/>Loïck Bonniot, Christoph Neumann and Francois Taïani.<br/><br/>
+      <b>Self-optimising Application-agnostic Multithreading for Replicated State Machines</b><br/>Gerhard Habiger, Franz J. Hauck, Hans P. Reiser and Johannes Köstler.<br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session6"><b>Session 6: Security and Privacy I</b></th></tr>
+    <tr>
+    <td>
+      <b>Secure Embedding of Rooted Spanning Trees for Scalable Routing in Topology-Restricted Networks</b><br/>Martin Byrenheid, Thorsten Strufe and Stefanie Roos.<br/><br/>
+      <b>On the Detection of Shilling Attacks in Federated Collaborative Filtering</b><br/>Yangfan Jiang, Yipeng Zhou, Di Wu, Chao Li and Yan Wang. <br/><br/>
+      <b>Anomaly Detection via Mining Numerical Workflow Relations from Logs</b><br/>Bo Zhang, Hongyu Zhang and Pablo Moscato.<br/><br/>
+      <b>TLP-IDS: A Two-layer Intrusion Detection System for Integrated Electronic Systems</b><br/>Xiaoxia Liu, Daojing He, Yun Gao, Sencun Zhu and Sammy Chen.<br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session7"><b>Session 7: Distributed Storage</b></th></tr>
+    <tr>
+    <td>
+      <b>Audinet: A Decentralized Data Auditing System for Cloud Storage</b><br/>Meng Yan, Jiajia Xu, Trent Marbach, Gang Wang and Xiaoguang Liu. <br/><br/>
+      <b>Device and Placement Aware Framework to Optimize Single Failure Recoveries and Reads for Erasure Coded Storage Systems with Heterogeneous Storage Devices</b><br/>Yingxun Fu, Xun Liu, Jiwu Shu, Zhirong Shen, Shiye Zhang, Jun Wu, Jianyong Duan and Li Ma.<br/><br/>
+      <b>AZ-Recovery: An Efficient Crossing-AZ Recovery Scheme for Erasure Coded Cloud Storage Systems</b><br/>Xin Xie, Chentao Wu, Gen Yang, Zongxin Ye, Xubin He, Jie Li, Minyi Guo, Guangtao Xue, Yuanyuan Dong and Yafei Zhao.<br/><br/>
+      <b>Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV Stores via Elastic Reed-Solomon Codes</b><br/>Si Wu, Zhirong Shen and Patrick P. C. Lee.<br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="session8"><b class="dia2">Session 8: Emerging Technologies</b></th></tr>
+    <tr>
+    <td>
+      <b>MQT-TZ: Hardening IoT Brokers Using ARM TrustZone (Practical Experience Report)</b><br/>Carlos Segarra, Ricard Delgado-Gonzalo and Valerio Schiavoni.<br/><br/>
+      <b>Solving Linear Systems on High Performance Hardware with Resilience to Multiple Hard Faults</b><br/>Daniela Loreti, Marcello Artioli and Anna Ciampolini.<br/><br/>
+      <b>Robust Cache-Aware Quantum Processor Layout Design</b><br/>Travis LeCompte, Fang Qi and Lu Peng.<br/><br/>
+      <b>Performance Evaluation of the Impact of NUMA on One-sided RDMA Interactions</b><br/>Jacob Nelson and Roberto Palmieri.<br/><br/>					
+    </td>
+    </tr>	
+
+    <tr><th class="dia2" id="session9"><b class="dia2">Session 9: Learning II + Security and Privacy II</b></th></tr>
+    <tr>
+    <td>
+      <b>Fugue Can Forget, an Energy Efficient Collaborative Learning Framework</b><br/>Wenting Zou, Li Li and Zichen Xu.<br/><br/>
+      <b>Robust P2P Personalized Learning</b><br/>Karim Boubouh, Amine Boussetta, Yahya Benkaouz and Rachid Guerraoui.<br/><br/>					
+      <b>Towards Efficient, Credible and Privacy-preserving Service QoS Prediction in Unreliable Mobile Edge Environments</b><br/>Yilei Zhang, Peiyun Zhang, Yonglong Luo and Liya Ji.<br/><br/>
+      <b>Intrusion-Tolerant and Confidentiality-Preserving Publish/Subscribe Messaging</b><br/>Sisi Duan, Chao Liu, Xin Wang, Yusen Wu, Shuai Xu, Yelena Yesha and Haibin Zhang. <br/><br/>
+    </td>
+    </tr>
+
+    <tr><th class="dia2" id="posters"><b class="dia2">Session 10: Demo/posters</b></th></tr>
+    <tr>
+    <td>
+      <b>Poster: No More Slow Message: Programmable Packet Handling in Hard IRQ</b><br/>Ko Natori, Takafumi Kikuchi and Kenji Kono.<br/><br/>
+      <b>Demo: A Proof-of-Concept Implementation of Guard Secure Routing Protocol</b><br/>Sanaz Taheri-Boshrooyeh, Ali Utkan Sahin, Yahya Hassanzadeh-Nazarabadi and Oznur Ozkasap.<br/><br/>
+      <b>Demo: Skip Graph Middleware Implementation</b><br/>Yahya Hassanzadeh-Nazarabadi, Nazir Nayal, Shadi Sameh Hamdan, Ali Utkan Sahin, Oznur Ozkasap, and Alptekin Kupcu.<br/><br/>
+    </td>
+    </tr>
+    															
+  </table>
     
       
     <p>&nbsp;</p>
